@@ -1,0 +1,15 @@
+baseURL = "http://arnantoakbar.xyz/"
+languageCode = "en-us"
+title = "arnantoakbar.xyz"
+theme = "docdock"
+[params]
+  Subtitle = "Random thoughts, Inspirations, Ideas, Whatsoever"
+  GithubID = "arnantoakbar"
+  TwitterID = "arnantoakbar"
+  AnalyticsID = "UA-121669639-1"
+  DisqusShortname = "Aan"
+  Summary = true  # takes true or false
+  Content = true  # takes true or false
+  # comments = true
+  # if both are set to true, summary is shown.
+  FooterMsg = "&copy; 2018. Powered by Hugo."
