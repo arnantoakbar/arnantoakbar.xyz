@@ -1,15 +1,95 @@
-baseURL = "http://arnantoakbar.xyz/"
-languageCode = "en-us"
-title = "arnantoakbar.xyz"
-theme = "docdock"
+#baseURL = "http://arnantoakbar.xyz/"
+#languageCode = "en-us"
+#title = "arnantoakbar.xyz"
+#theme = "cocoa"
+#[params]
+#  Subtitle = "Random thoughts, Inspirations, Ideas, Whatsoever"
+#  GithubID = "arnantoakbar"
+#  TwitterID = "arnantoakbar"
+#  AnalyticsID = "UA-121669639-1"
+#  DisqusShortname = "Aan"
+#  Summary = true  # takes true or false
+#  Content = true  # takes true or false
+#  # comments = true
+#  # if both are set to true, summary is shown.
+#  FooterMsg = "&copy; 2018. Powered by Hugo."
+
+baseurl             = "localhost:1313"
+builddrafts         = false
+canonifyurls        = true
+contentdir          = "content"
+languageCode        = "en-US"
+layoutdir           = "layouts"
+publishdir          = "public"
+theme               = "cocoa"
+author              = "Arnanto Akbar"
+title               = "arnantoakbar.xyz"
+pygmentsuseclasses  = true
+# disqusshortname     = "arnantoakbar" # Comment out to disable Disqus.
+pluralizelisttitles = false
+googleAnalytics     = "UA-121669639-1"
+
+[permalinks]
+blog  = "blog/:slug/"
+
+[[menu.main]]
+name                   = "Blog"
+weight                 = -120
+identifier             = "blog"
+url                    = "/blog/"
+
+[[menu.main]]
+name                   = "About"
+weight                 = -110
+identifier             = "about"
+url                    = "/about/"
+
+#[[menu.main]]
+#name                   = "Code"
+#weight                 = -100
+#identifier             = "code"
+#url                    = "/code/"
+
 [params]
-  Subtitle = "Random thoughts, Inspirations, Ideas, Whatsoever"
-  GithubID = "arnantoakbar"
-  TwitterID = "arnantoakbar"
-  AnalyticsID = "UA-121669639-1"
-  DisqusShortname = "Aan"
-  Summary = true  # takes true or false
-  Content = true  # takes true or false
-  # comments = true
-  # if both are set to true, summary is shown.
-  FooterMsg = "&copy; 2018. Powered by Hugo."
+include_rss            = true                          # include RSS <link> tag in <head> and show RSS icon
+latestpostscount       = 5                             # how many posts to display on the home page
+i18n_flags             = false                         # whether to display small country flags for available translations
+author                 = "Arnanto Akbar"
+cachebuster            = true                          # add the current unix timestamp in query string for cache busting css assets
+dateform               = "2 Jan 2006"
+dateformfull           = "Mon, 2 Jan 2006 15:04:05 MST"
+description            = "Random thoughts, Inspirations, Ideas, Whatsoever"
+email                  = "arnanto.akbar@gmail.com"
+extracssfiles          = [ "/css/override.css" ]       # In your static directory, add/remove files as necessary.
+faviconfile            = "img/favicon.ico"
+github                 = "//github.com/arnantoakbar"
+instagram              = "//instagram.com/arnantoakbar"
+lang                   = "en"
+linkedin               = "//linkedin.com/in/arnantoakbar"
+noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
+selfintro              = "Random thoughts, Inspirations, Ideas, Whatsoever"   # appears in the site header when set to a non-empty string
+twitter                = "//twitter.com/arnantoakbar"
+# mastodon               = "//example.com/@arnantoakbar"
+
+highlightjs            = true
+# highlightjslanguages = ["go"]                        # additional languages not included in the "common" set
+# highlightjsStyle     = "darcula"
+
+piwik                  = false                         # If true, Piwik integration is enabled
+# piwik_url            = "//www.example.com/piwik/"    # URL to your Piwik installation. Must End with a slash
+# piwik_id             = 2                             # Id of your site in Piwik
+
+gitalk                 = false
+# if gitalk is true, the following params should be set. These parameters could be retrieved from github OAuth
+# gitalk_clientID        = "your client id"
+# gitalk_clientSecret    = "your client secret"
+# gitalk_repo            = "your repo url"
+# gitalk_owner           = "the owner of this repo"
+# gitalk_admin           = ['a', 'list', 'of', 'administrator']
+
+avatar                 = "img/profile.png" # path to image in static dir e.g img/avatar.png (do not use in the same time as gravatar)
+# gravatar             = ""                # gravatar hash. see https://en.gravatar.com/site/implement/hash/. do not use in the same time as avatar
+
+# The following are DEPRECATED.
+# gatracker              = "XYZ" # use googleAnalytics instead
+# initials               = "ad"  # displayed on single post page; deprecated in v0.3.0.
