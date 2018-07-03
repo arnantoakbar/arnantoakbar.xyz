@@ -1,4 +1,4 @@
-#baseURL = "http://arnantoakbar.xyz/"
+baseurl = "http://arnantoakbar.xyz/"
 #languageCode = "en-us"
 #title = "arnantoakbar.xyz"
 #theme = "cocoa"
@@ -14,7 +14,7 @@
 #  # if both are set to true, summary is shown.
 #  FooterMsg = "&copy; 2018. Powered by Hugo."
 
-baseurl             = "localhost:1313"
+#baseurl             = "localhost:1313"
 builddrafts         = false
 canonifyurls        = true
 contentdir          = "content"
