@@ -67,7 +67,7 @@ instagram              = "//instagram.com/arnantoakbar"
 lang                   = "en"
 linkedin               = "//linkedin.com/in/arnantoakbar"
 noshowreadtime         = false                         # if true, don't show "<x> minutes read" in posts
-selfintro              = "Random thoughts, Inspirations, Ideas, Whatsoever"   # appears in the site header when set to a non-empty string
+selfintro              = "Random thoughts, Wild Ideas, Whatsoever"   # appears in the site header when set to a non-empty string
 twitter                = "//twitter.com/arnantoakbar"
 # mastodon               = "//example.com/@arnantoakbar"
 
