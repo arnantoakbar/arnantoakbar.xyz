@@ -27,7 +27,7 @@ title               = "arnantoakbar.xyz"
 pygmentsuseclasses  = true
 # disqusshortname     = "arnantoakbar" # Comment out to disable Disqus.
 pluralizelisttitles = false
-googleAnalytics     = "UA-121669639-1"
+# googleAnalytics     = ""
 
 [permalinks]
 blog  = "blog/:slug/"
